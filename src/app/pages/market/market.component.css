@@ -1,0 +1,170 @@
+.cube_2 :root {
+    /* Base font size */
+    font-size: 10px;
+
+    /* Border color variable */
+    --border-color: #e70;
+}
+
+.cube_2 * {
+    box-sizing: border-box;
+}
+
+.cube_2 body {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    color: #fafafa;
+    background-color: #080808;
+}
+
+.cube_2 h1 {
+    font-size: 4rem;
+}
+
+.cube_2 h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.cube_2 .cube-container {
+    position: relative;
+    width: 30rem;
+    height: 16rem;
+    margin: 5rem auto 6rem;
+    perspective: 100rem;
+}
+
+.cube_2 .cube_ {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 1s cubic-bezier(0.32, 0.05, 0.35, 1.6);
+}
+
+.cube_2 .cube-face-image {
+    display: block;
+    position: absolute;
+    /*opacity: 0.95;
+    border: 0.2rem solid #fafafa;*/
+    box-shadow: 0 0 0.5rem #fff,
+    0 0 1.5rem black,
+    0 0 3rem black;
+    /*0 0 1.5rem #e70,
+    0 0 3rem #e70;*/
+}
+
+.cube_2 .image-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1.5rem;
+    justify-content: center;
+}
+
+.cube_2 .image-buttons input {
+    border: 0.2rem solid #fafafa;
+}
+
+.cube_2 .image-buttons input.selected {
+    outline: none;
+    border: 0.2rem solid var(--border-color);
+}
+
+/* Transform images to create cube */
+
+.cube_2 .image-1 {
+    /*transform: translate3d(0, 0, 15rem);*/
+    transform: translate3d(0, 0, 9.5rem);
+}
+
+.cube_2 .image-2 {
+    /*transform: rotateX(-180deg) translate3d(0, 0, 15rem);*/
+    transform: rotateX(-180deg) translate3d(0, 0, 9.5rem);
+}
+
+.cube_2 .image-3 {
+    /*transform: rotateY(90deg) translate3d(0, 0, 15rem);*/
+    transform: rotateY(90deg) translate3d(0, 0, 9.5rem);
+}
+
+.cube_2 .image-4 {
+    /*transform: rotateY(-90deg) translate3d(0, 0, 15rem);*/
+    transform: rotateY(-90deg) translate3d(0, 0, 9.5rem);
+}
+
+.cube_2 .image-5 {
+    /*transform: rotateX(90deg) translate3d(0, 0, 15rem);*/
+    transform: rotateX(90deg) translate3d(0, 0, 9.5rem);
+}
+
+.cube_2 .image-6 {
+    /*transform: rotateX(-90deg) translate3d(0, 0, 15rem);*/
+    transform: rotateX(-90deg) translate3d(0, 0, 9.5rem);
+}
+
+/* Transform cube to show correct image */
+
+.cube_2 .cube_.initial-position {
+    transform: translateZ(-15rem) translateY(-2rem) rotateX(-15deg) rotateY(18deg) rotateZ(2deg);
+}
+
+.cube_2 .cube_.show-image-1 {
+    transform: translateZ(-15rem);
+    /*left: 0px;*/
+    left: 80px;
+    top: 0;
+}
+
+.cube_2 .cube_.show-image-2 {
+    /*transform: translateZ(-15rem) rotateX(180deg);*/
+    transform: translateZ(-15rem) rotateX(180deg) translateY(180px);
+    /*left: 0px;*/
+    left: 80px;
+    top: 228px;
+}
+
+.cube_2 .cube_.show-image-3 {
+    transform: translateZ(-15rem) rotateY(-90deg);
+    /*left: -96px;*/
+    left: -16px;
+    top: 0;
+}
+
+.cube_2 .cube_.show-image-4 {
+    transform: translateZ(-15rem) rotateY(90deg);
+    /*left: -72px;*/
+    left: 8px;
+    top: 0;
+}
+
+.cube_2 .cube_.show-image-5 {
+    transform: translateZ(-15rem) rotateX(-90deg);
+    /*left: 0px;*/
+    left: 80px;
+    top: 32px;
+}
+
+.cube_2 .cube_.show-image-6 {
+    transform: translateZ(-15rem) rotateX(90deg);
+    /*left: 0px;*/
+    left: 80px;
+    top: -79px;
+}
+
+.read_more{
+    cursor: pointer;
+    margin-top: 257px;
+    color: red;
+    float: right;
+    margin-right: 16px;
+    font-weight: 900;
+    background: white;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+}
+

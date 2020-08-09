@@ -1,0 +1,155 @@
+/*@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");*/
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*background-color: var(--gray-brand-color);*/
+    background-color: white;
+}
+
+#header-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#main-container{
+    /*background-color: var(--gray-brand-color);*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#products{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20vh;
+}
+
+.product-img{
+    width: 250px;
+    height: auto;
+}
+
+.product-box{
+    width: 250px;
+    height: max-content;
+}
+
+figcaption{
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+    font-size: 1.3em;
+}
+
+label{
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*background-color: var(--gray-brand-color);*/
+    background-color: white;
+}
+
+#header-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#main-container{
+    /*background-color: var(--gray-brand-color);*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color: white;
+}
+
+.subscribe {
+    height: 54px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 54px;
+    padding: 5px;
+    overflow: hidden;
+    border-color: black;
+    border-style: solid;
+    margin-left: 140px;
+}
+
+input {
+    border: 0;
+    flex: 1;
+    padding: 0 16px;
+    outline: none;
+    background-color: transparent;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+
+}
+
+.about-order{
+    font-size: 23px;font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    border: 0;
+    height: 44px;
+    width: 44px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 32px;
+    outline: none;
+}
+
+h3{
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width:500px){
+
+    #header-img img{
+        width: 100px;
+        height: auto;
+    }
+
+    iframe{
+        width: 330px;
+        height: 180px;
+    }
+
+    p{
+        font-size: 0.6em;
+    }
+
+    .container {
+        transform: scale(0.7,0.7);
+    }
+
+}

@@ -1,1 +1,19 @@
-/* Add application styles & imports to this file! */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+app-market, app-contact, app-lab, app-portfolio{
+    width: 100%;
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 600px;
+    margin-left: calc(50% - 300px);
+}
+

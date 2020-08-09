@@ -1,4 +1,126 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="content" [ngClass]="{ 'cube': cube }">
+
+  <app-modal-window></app-modal-window>
+
+  <div class="content__inner">
+    <nav>
+      <div class="spinner" (click)="cube = !cube;" style="color: transparent;">
+        cube
+      </div>
+        <router-outlet></router-outlet>
+    </nav>
+    <main style="margin-top: 0;">
+
+      <div class="header">
+        <h3 style="color: black;font-size: 40px;">
+          Hell<i class="spinner2"></i> &nbsp;&nbsp;&nbsp;w<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;rld!
+        </h3>
+      </div>
+
+      <div id="body">
+        <div id="movie-card-list">
+          <div class="movie-card" data-movie="About">
+            <div class="movie-card__overlay"></div>
+            <div class="movie-card__share"></div>
+            <div class="movie-card__content">
+              <div class="movie-card__header">
+                <h1 class="movie-card__title"> О нас </h1>
+                <h4 class="movie-card__info" >История нашей студии</h4>
+              </div>
+              <p class="movie-card__desc">
+                A secret military project endangers Neo-Tokyo when it turns a biker gang member into a
+                rampaging psychic psychopath that only two teenagers, and a group of psychics can stop.
+              </p>
+              <a class="btn btn-outline movie-card__button" (click)="cube = !cube;" routerLink="/about">&#10149;</a>
+            </div>
+          </div>
+
+          <div class="movie-card" data-movie="Lab">
+            <div class="movie-card__overlay"></div>
+            <div class="movie-card__share"></div>
+            <div class="movie-card__content">
+              <div class="movie-card__header">
+                <h1 class="movie-card__title" >лаборатория </h1>
+                <h4 class="movie-card__info" >производит 100% в условиях 10% </h4>
+              </div>
+              <p class="movie-card__desc">
+                Этот проект призван обеспечить постоянную активность наших сотрудников, и дать
+                возможность создать свой личный  проект практически бесплатно любому.
+              </p>
+              <a class="btn btn-outline movie-card__button" (click)="cube = !cube;" routerLink="/lab">&#10149;</a>
+            </div>
+          </div>
+
+          <div class="movie-card" data-movie="Folio">
+            <div class="movie-card__overlay"></div>
+            <div class="movie-card__share"></div>
+            <div class="movie-card__content">
+              <div class="movie-card__header">
+                <h1 class="movie-card__title">портфолио</h1>
+                <h4 class="movie-card__info">Продукция нашей студии</h4>
+              </div>
+              <p class="movie-card__desc">
+                A blade runner must pursue and try to terminate four replicants
+                who stole a ship in space and have returned to Earth to find their creator.
+              </p>
+              <a class="btn btn-outline movie-card__button" (click)="cube = !cube; cube_1_start();"
+                 routerLink="/portfolio">
+                &#10149;
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-card" data-movie="Store">
+            <div class="movie-card__overlay"></div>
+            <div class="movie-card__share"></div>
+            <div class="movie-card__content">
+              <div class="movie-card__header">
+                <h1 class="movie-card__title">магазин </h1>
+                <h4 class="movie-card__info"> мы продаем проекты</h4>
+              </div>
+              <p class="movie-card__desc">
+                Marty McFly, a 17-year-old into the past in a time-traveling DeLorean invented by his
+                close friend, the maverick scientist Doc Brown.
+              </p>
+              <a class="btn btn-outline movie-card__button"  (click)="cube = !cube; cube_2_start();"
+                 routerLink="/market">
+                &#10149;
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-card" data-movie="Contact">
+            <div class="movie-card__overlay"></div>
+            <div class="movie-card__share"></div>
+            <div class="movie-card__content">
+              <div class="movie-card__header">
+                <h1 class="movie-card__title">контакты </h1>
+                <h4 class="movie-card__info"> постоянная связь с нами</h4>
+              </div>
+              <p class="movie-card__desc"> Вы можете  удобным для вас способом  решить любые вопросы
+                связанные с нашей студией просто  обратившись влюбое из указанных нами мест.
+              </p>
+              <a class="btn btn-outline movie-card__button"  (click)="cube = !cube;"
+                 routerLink="/contact">&#10149;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+
+    window.addEventListener("DOMContentLoaded", () => {
+
+      cube_1_start();
+
+      cube_2_start();
+
+    });
+
+  </script>
+
+
+</div>

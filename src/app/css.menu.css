@@ -1,0 +1,76 @@
+body {
+    overflow: hidden;
+}
+.content {
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    overflow: hidden;
+}
+
+.content__inner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: -webkit-transform 0.6s ease-out;
+    transition: -webkit-transform 0.6s ease-out;
+    transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    overflow: hidden;
+
+}
+
+.content main,
+.content nav {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    -webkit-transition: -webkit-transform 0.6s ease-out;
+    transition: -webkit-transform 0.6s ease-out;
+    transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+.content main {
+    -webkit-transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    will-change: transform;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.content nav {
+    background-color: #fff;
+    -webkit-transform: rotateY(-90deg) translateX(-50%) rotateY(-90deg) translateX(50%) rotateY(90deg);
+    transform: rotateY(-90deg) translateX(-50%) rotateY(-90deg) translateX(50%) rotateY(90deg);
+    will-change: transform;overflow: auto;
+    -moz-transform: rotateY(-90deg) translateX(-50%) rotateY(-90deg) translateX(50%) rotateY(90deg);
+    -ms-transform: rotateY(-90deg) translateX(-50%) rotateY(-90deg) translateX(50%) rotateY(90deg);
+    -o-transform: rotateY(-90deg) translateX(-50%) rotateY(-90deg) translateX(50%) rotateY(90deg);
+
+}
+
+.content.cube main {
+    -webkit-transform: rotateY(-90deg) translateX(-50%) rotateY(90deg) translateX(50%) rotateY(90deg);
+    transform: rotateY(-90deg) translateX(-50%) rotateY(90deg) translateX(50%) rotateY(90deg);
+}
+
+.content.cube nav {
+    -webkit-transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    -moz-transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    -ms-transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+    -o-transform: rotateY(-90deg) translateX(-50%) rotateY(0deg) translateX(50%) rotateY(90deg);
+}
