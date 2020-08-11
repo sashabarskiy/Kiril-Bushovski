@@ -32,7 +32,7 @@
 
 .cube_2 .cube-container {
     position: relative;
-    width: 30rem;
+    width: 19rem;
     height: 16rem;
     margin: 5rem auto 6rem;
     perspective: 100rem;
@@ -115,7 +115,7 @@
 .cube_2 .cube_.show-image-1 {
     transform: translateZ(-15rem);
     /*left: 0px;*/
-    left: 80px;
+    left: 0;
     top: 0;
 }
 
@@ -123,7 +123,7 @@
     /*transform: translateZ(-15rem) rotateX(180deg);*/
     transform: translateZ(-15rem) rotateX(180deg) translateY(180px);
     /*left: 0px;*/
-    left: 80px;
+    left: 0;
     top: 228px;
 }
 
@@ -144,7 +144,7 @@
 .cube_2 .cube_.show-image-5 {
     transform: translateZ(-15rem) rotateX(-90deg);
     /*left: 0px;*/
-    left: 80px;
+    left: 0;
     top: 32px;
 }
 

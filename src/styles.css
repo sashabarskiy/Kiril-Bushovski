@@ -15,5 +15,18 @@ button{
 .container{
     width: 600px;
     margin-left: calc(50% - 300px);
+    margin-top: 93px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px){
+
+    .container{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
 }
 

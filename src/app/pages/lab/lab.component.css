@@ -87,7 +87,7 @@ label{
 .subscribe {
     height: 54px;
     width: 300px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: space-between;
     border-radius: 54px;
@@ -95,7 +95,7 @@ label{
     overflow: hidden;
     border-color: black;
     border-style: solid;
-    margin-left: 140px;
+    margin-bottom: 40px;
 }
 
 input {
@@ -130,6 +130,10 @@ h3{
     text-align: center;
 }
 
+.container__item{
+    text-align: center;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width:500px){
@@ -148,8 +152,5 @@ h3{
         font-size: 0.6em;
     }
 
-    .container {
-        transform: scale(0.7,0.7);
-    }
 
 }

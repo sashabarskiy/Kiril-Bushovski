@@ -17,13 +17,13 @@
 }
 
 .cube_1 h1{
-    color:white;
+    color: black;
     font-size:1.6rem;
     margin-bottom: 0;
 }
 
 .cube_1 p{
-    color:white;
+    color: black;
     font-size: .8rem;
     margin-bottom: 2rem;
 }
@@ -34,7 +34,6 @@
     position: relative;
     perspective: 500px;
     transition: .5s;
-    margin-left: 150px;
 }
 
 .cube_1 .container-movement{
@@ -118,5 +117,9 @@
 
 .cube_1 span{
     margin-top:10px;
-    color:white;
+    color: black;
+}
+
+.cube_1{
+    cursor: pointer;
 }
