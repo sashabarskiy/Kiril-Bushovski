@@ -8,6 +8,15 @@ app-market, app-contact, app-lab, app-portfolio{
     display: block;
 }
 
+app-language{
+    width: 83px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 300px;
+    z-index: 1;
+}
+
 button{
     cursor: pointer;
 }
@@ -29,4 +38,5 @@ button{
     }
 
 }
+
 

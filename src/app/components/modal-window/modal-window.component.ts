@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-modal-window',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModalWindowComponent implements OnInit {
 
-  constructor() { }
+  constructor(public lang: LanguageService) { }
 
   ngOnInit(): void {
   }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(public lang: LanguageService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }

@@ -10,6 +10,8 @@ import { LabComponent } from './pages/lab/lab.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { MarketComponent } from './pages/market/market.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { LanguageComponent } from './components/language/language.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const routes: Routes = [
     { path: 'about', component: AboutComponent },
@@ -20,8 +22,13 @@ const routes: Routes = [
   ];
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(routes) ],
-  declarations: [ AppComponent, ModalWindowComponent, AboutComponent, LabComponent, PortfolioComponent, MarketComponent, ContactComponent ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        RouterModule.forRoot(routes),
+        BrowserAnimationsModule
+    ],
+  declarations: [ AppComponent, ModalWindowComponent, AboutComponent, LabComponent, PortfolioComponent, MarketComponent, ContactComponent, LanguageComponent ],
   bootstrap:    [ AppComponent ],
   exports: [ RouterModule ]
 })

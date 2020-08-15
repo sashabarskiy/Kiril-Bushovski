@@ -12,8 +12,15 @@
     <main style="margin-top: 0;">
 
       <div class="header">
-        <h3 style="color: black;font-size: 40px;">
-          Hell<i class="spinner2"></i> &nbsp;&nbsp;&nbsp;w<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;rld!
+        <app-language style="text-align: left;"></app-language>
+        <h3 *ngIf="lang.language == 'en-EN'" style="color: black;font-size: 40px;">
+          Hell<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;rld!
+        </h3>
+        <h3 *ngIf="lang.language == 'it-IT'" style="color: black;font-size: 40px;">
+          Cia<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;ndo!
+        </h3>
+        <h3 *ngIf="lang.language == 'ru-RU'" style="color: black;font-size: 40px;">
+          Здар<i class="spinner2"></i>&nbsp;&nbsp;&nbsp;ва, Мир!
         </h3>
       </div>
 
@@ -24,7 +31,7 @@
             <div class="movie-card__share"></div>
             <div class="movie-card__content">
               <div class="movie-card__header">
-                <h1 class="movie-card__title"> О нас </h1>
+                <h1 class="movie-card__title">{{lang.get('about')}}</h1>
                 <h4 class="movie-card__info" >История нашей студии</h4>
               </div>
               <p class="movie-card__desc">
@@ -40,8 +47,8 @@
             <div class="movie-card__share"></div>
             <div class="movie-card__content">
               <div class="movie-card__header">
-                <h1 class="movie-card__title" >лаборатория </h1>
-                <h4 class="movie-card__info" >производит 100% в условиях 10% </h4>
+                <h1 class="movie-card__title" >лаборатория</h1>
+                <h4 class="movie-card__info" >производит 100% в условиях 10%</h4>
               </div>
               <p class="movie-card__desc">
                 Этот проект призван обеспечить постоянную активность наших сотрудников, и дать
@@ -105,6 +112,7 @@
               </a>
             </div>
           </div>
+
         </div>
       </div>
     </main>
@@ -121,6 +129,5 @@
     });
 
   </script>
-
 
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {LanguageService} from "../../services/language.service";
 
 @Component({
   selector: 'app-market',
@@ -10,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MarketComponent implements OnInit {
 
-  constructor() { }
+  constructor(public lang: LanguageService) { }
 
   ngOnInit(): void {
   }

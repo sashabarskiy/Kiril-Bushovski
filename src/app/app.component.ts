@@ -1,14 +1,23 @@
-import { Component, VERSION } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {LanguageService} from "./services/language.service";
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css', './spinner.css', './css.menu.card.css', './css.menu.css', './o2.css' ]
 })
-export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+export class AppComponent implements OnInit {
+
+  languages = ["RU", "EN", "IT"];
 
   cube = false;
+
+  constructor(public lang: LanguageService) {
+  }
+
+  ngOnInit(): void {
+    this.lang.set(navigator.language);
+  }
 
   cube_1_start(){
     setTimeout(function(){
