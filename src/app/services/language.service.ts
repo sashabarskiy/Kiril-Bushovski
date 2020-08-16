@@ -117,60 +117,75 @@ export class LanguageService {
     this.dictionary[code + " it-IT"] = "Credito immagini";
     this.dictionary[code + " ru-RU"] = "Кредит на изображения";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
+    code = "History of our studio";
+    this.dictionary[code + " en-EN"] = "History of our studio";
+    this.dictionary[code + " it-IT"] = "Storia del nostro studio";
     this.dictionary[code + " ru-RU"] = "История нашей студии";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers, and a group of psychics can stop.";
-    this.dictionary[code + " ru-RU"] = "";
+    code = "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers, and a group of psychics can stop.";
+    this.dictionary[code + " en-EN"] = "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers, and a group of psychics can stop.";
+    this.dictionary[code + " it-IT"] = "Un progetto militare segreto mette in pericolo Neo-Tokyo quando trasforma un membro di una banda di motociclisti in uno psicopatico psichico scatenato che solo due adolescenti e un gruppo di sensitivi possono fermare.";
+    this.dictionary[code + " ru-RU"] = "Секретный военный проект подвергает Нео-Токио опасности, когда он превращает члена байкерской банды в неистового психопата, которого могут остановить только двое подростков и группа экстрасенсов.";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
+    code = "laboratory";
+    this.dictionary[code + " en-EN"] = "laboratory";
+    this.dictionary[code + " it-IT"] = "laboratorio";
     this.dictionary[code + " ru-RU"] = "лаборатория";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
+    code = "produces 100% under 10% conditions";
+    this.dictionary[code + " en-EN"] = "produces 100% under 10% conditions";
+    this.dictionary[code + " it-IT"] = "produce il 100% in condizioni del 10%";
     this.dictionary[code + " ru-RU"] = "производит 100% в условиях 10%";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
+    code = "This project is designed to ensure the constant activity of our employees, and give the opportunity to create your own personal project almost free of charge to anyone.";
+    this.dictionary[code + " en-EN"] = "This project is designed to ensure the constant activity of our employees, and give the opportunity to create your own personal project almost free of charge to anyone.";
+    this.dictionary[code + " it-IT"] = "Questo progetto è pensato per garantire l'attività costante dei nostri dipendenti, e dare la possibilità di creare il proprio progetto personale quasi gratuitamente a chiunque.";
     this.dictionary[code + " ru-RU"] = "Этот проект призван обеспечить постоянную активность наших сотрудников, и дать возможность создать свой личный  проект практически бесплатно любому.";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
+    code = "portfolio";
+    this.dictionary[code + " en-EN"] = "portfolio";
+    this.dictionary[code + " it-IT"] = "portafoglio";
     this.dictionary[code + " ru-RU"] = "портфолио";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
-    this.dictionary[code + " ru-RU"] = "";
+    code = "Products of our studio";
+    this.dictionary[code + " en-EN"] = "Products of our studio";
+    this.dictionary[code + " it-IT"] = "Prodotti del nostro studio";
+    this.dictionary[code + " ru-RU"] = "Продукция нашей студии";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
-    this.dictionary[code + " ru-RU"] = "";
+    code = "A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.";
+    this.dictionary[code + " en-EN"] = "A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.";
+    this.dictionary[code + " it-IT"] = "Un blade runner deve inseguire e cercare di eliminare quattro replicanti che hanno rubato una nave nello spazio e sono tornati sulla Terra per trovare il loro creatore.";
+    this.dictionary[code + " ru-RU"] = "Бегущий по лезвию должен преследовать и пытаться уничтожить четырех репликантов, которые украли корабль в космосе и вернулись на Землю, чтобы найти своего создателя.";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
-    this.dictionary[code + " ru-RU"] = "";
+    code = "shop";
+    this.dictionary[code + " en-EN"] = "shop";
+    this.dictionary[code + " it-IT"] = "negozio";
+    this.dictionary[code + " ru-RU"] = "магазин";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
-    this.dictionary[code + " ru-RU"] = "";
+    code = "we sell projects";
+    this.dictionary[code + " en-EN"] = "we sell projects";
+    this.dictionary[code + " it-IT"] = "vendiamo progetti";
+    this.dictionary[code + " ru-RU"] = "мы продаем проекты";
 
-    code = "";
-    this.dictionary[code + " en-EN"] = "";
-    this.dictionary[code + " it-IT"] = "";
-    this.dictionary[code + " ru-RU"] = "";
+    code = "Marty McFly, a 17-year-old into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.";
+    this.dictionary[code + " en-EN"] = "Marty McFly, a 17-year-old into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.";
+    this.dictionary[code + " it-IT"] = "Marty McFly, un diciassettenne nel passato in una DeLorean che viaggia nel tempo inventata dal suo caro amico, lo scienziato anticonformista Doc Brown.";
+    this.dictionary[code + " ru-RU"] = "Марти Макфлай, 17-летний парень, погрузился в прошлое в путешествии во времени DeLorean, изобретенном его близким другом, ученым-индивидуалистом Доком Брауном.";
+
+    code = "contacts";
+    this.dictionary[code + " en-EN"] = "contacts";
+    this.dictionary[code + " it-IT"] = "contatti";
+    this.dictionary[code + " ru-RU"] = "контакты";
+
+    code = "constant communication with us";
+    this.dictionary[code + " en-EN"] = "constant communication with us";
+    this.dictionary[code + " it-IT"] = "comunicazione costante con noi";
+    this.dictionary[code + " ru-RU"] = "постоянная связь с нами";
+
+    code = "You can solve any questions related to our studio in a convenient way for you by simply contacting any of the places indicated by us.";
+    this.dictionary[code + " en-EN"] = "You can solve any questions related to our studio in a convenient way for you by simply contacting any of the places indicated by us.";
+    this.dictionary[code + " it-IT"] = "Puoi risolvere qualsiasi domanda relativa al nostro studio in modo conveniente per te semplicemente contattando uno dei luoghi da noi indicati.";
+    this.dictionary[code + " ru-RU"] = "Вы можете  удобным для вас способом  решить любые вопросы связанные с нашей студией просто  обратившись влюбое из указанных нами мест.";
 
     code = "";
     this.dictionary[code + " en-EN"] = "";
@@ -178,7 +193,5 @@ export class LanguageService {
     this.dictionary[code + " ru-RU"] = "";
 
   }
-
-
 
 }

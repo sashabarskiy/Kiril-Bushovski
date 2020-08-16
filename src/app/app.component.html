@@ -32,11 +32,10 @@
             <div class="movie-card__content">
               <div class="movie-card__header">
                 <h1 class="movie-card__title">{{lang.get('about')}}</h1>
-                <h4 class="movie-card__info" >История нашей студии</h4>
+                <h4 class="movie-card__info" >{{lang.get('History of our studio')}}</h4>
               </div>
               <p class="movie-card__desc">
-                A secret military project endangers Neo-Tokyo when it turns a biker gang member into a
-                rampaging psychic psychopath that only two teenagers, and a group of psychics can stop.
+                {{lang.get('A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers, and a group of psychics can stop.')}}
               </p>
               <a class="btn btn-outline movie-card__button" (click)="cube = !cube;" routerLink="/about">&#10149;</a>
             </div>
@@ -47,12 +46,11 @@
             <div class="movie-card__share"></div>
             <div class="movie-card__content">
               <div class="movie-card__header">
-                <h1 class="movie-card__title" >лаборатория</h1>
-                <h4 class="movie-card__info" >производит 100% в условиях 10%</h4>
+                <h1 class="movie-card__title" >{{lang.get('laboratory')}}</h1>
+                <h4 class="movie-card__info" >{{lang.get('produces 100% under 10% conditions')}}</h4>
               </div>
               <p class="movie-card__desc">
-                Этот проект призван обеспечить постоянную активность наших сотрудников, и дать
-                возможность создать свой личный  проект практически бесплатно любому.
+                {{lang.get('This project is designed to ensure the constant activity of our employees, and give the opportunity to create your own personal project almost free of charge to anyone.')}}
               </p>
               <a class="btn btn-outline movie-card__button" (click)="cube = !cube;" routerLink="/lab">&#10149;</a>
             </div>
@@ -63,12 +61,11 @@
             <div class="movie-card__share"></div>
             <div class="movie-card__content">
               <div class="movie-card__header">
-                <h1 class="movie-card__title">портфолио</h1>
-                <h4 class="movie-card__info">Продукция нашей студии</h4>
+                <h1 class="movie-card__title">{{lang.get('portfolio')}}</h1>
+                <h4 class="movie-card__info">{{lang.get('Products of our studio')}}</h4>
               </div>
               <p class="movie-card__desc">
-                A blade runner must pursue and try to terminate four replicants
-                who stole a ship in space and have returned to Earth to find their creator.
+                {{lang.get('A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.')}}
               </p>
               <a class="btn btn-outline movie-card__button" (click)="cube = !cube; cube_1_start();"
                  routerLink="/portfolio">
@@ -82,12 +79,11 @@
             <div class="movie-card__share"></div>
             <div class="movie-card__content">
               <div class="movie-card__header">
-                <h1 class="movie-card__title">магазин </h1>
-                <h4 class="movie-card__info"> мы продаем проекты</h4>
+                <h1 class="movie-card__title">{{lang.get('shop')}}</h1>
+                <h4 class="movie-card__info">{{lang.get('we sell projects')}}</h4>
               </div>
               <p class="movie-card__desc">
-                Marty McFly, a 17-year-old into the past in a time-traveling DeLorean invented by his
-                close friend, the maverick scientist Doc Brown.
+                {{lang.get('Marty McFly, a 17-year-old into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.')}}
               </p>
               <a class="btn btn-outline movie-card__button"  (click)="cube = !cube; cube_2_start();"
                  routerLink="/market">
@@ -101,12 +97,10 @@
             <div class="movie-card__share"></div>
             <div class="movie-card__content">
               <div class="movie-card__header">
-                <h1 class="movie-card__title">контакты </h1>
-                <h4 class="movie-card__info"> постоянная связь с нами</h4>
+                <h1 class="movie-card__title">{{lang.get('contacts')}}</h1>
+                <h4 class="movie-card__info">{{lang.get('constant communication with us')}}</h4>
               </div>
-              <p class="movie-card__desc"> Вы можете  удобным для вас способом  решить любые вопросы
-                связанные с нашей студией просто  обратившись влюбое из указанных нами мест.
-              </p>
+              <p class="movie-card__desc">{{lang.get('You can solve any questions related to our studio in a convenient way for you by simply contacting any of the places indicated by us.')}}</p>
               <a class="btn btn-outline movie-card__button"  (click)="cube = !cube;"
                  routerLink="/contact">&#10149;
               </a>

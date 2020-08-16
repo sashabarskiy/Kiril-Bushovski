@@ -1,0 +1,9 @@
+span{
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.language{
+    opacity: 0;
+}

@@ -1,0 +1,7 @@
+<span (click)="toggle();">{{lang.get("language")}} {{sign}}</span>
+<br>
+<span (click)="toggle(); lang.set('ru-RU');" class="language">{{lang.get("russian")}}</span>
+<br>
+<span (click)="toggle(); lang.set('it-IT');" class="language">{{lang.get("italian")}}</span>
+<br>
+<span (click)="toggle(); lang.set('en-EN');" class="language">{{lang.get("english")}}</span>
