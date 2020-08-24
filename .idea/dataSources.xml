@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL - lora_3rd_part@172.20.0.11" uuid="1d3b3221-bb96-45d8-9dfb-e752c93ce6c9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.20.0.11:5432/lora_3rd_part</jdbc-url>
+    </data-source>
+  </component>
+</project>
