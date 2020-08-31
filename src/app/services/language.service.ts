@@ -187,6 +187,26 @@ export class LanguageService {
     this.dictionary[code + " it-IT"] = "Puoi risolvere qualsiasi domanda relativa al nostro studio in modo conveniente per te semplicemente contattando uno dei luoghi da noi indicati.";
     this.dictionary[code + " ru-RU"] = "Вы можете  удобным для вас способом  решить любые вопросы связанные с нашей студией просто  обратившись влюбое из указанных нами мест.";
 
+    code = "Your Name:";
+    this.dictionary[code + " en-EN"] = "Your  Name:";
+    this.dictionary[code + " it-IT"] = "Il tuo nome:";
+    this.dictionary[code + " ru-RU"] = "Ваше имя:";
+
+    code = "Your Email:";
+    this.dictionary[code + " en-EN"] = "Your Email:";
+    this.dictionary[code + " it-IT"] = "La tua email:";
+    this.dictionary[code + " ru-RU"] = "Ваша почта:";
+
+    code = "Your Message:";
+    this.dictionary[code + " en-EN"] = "Your Message:";
+    this.dictionary[code + " it-IT"] = "Il tuo messaggio:";
+    this.dictionary[code + " ru-RU"] = "Ваше сообщение:";
+
+    code = "Submit";
+    this.dictionary[code + " en-EN"] = "Submit";
+    this.dictionary[code + " it-IT"] = "Invia";
+    this.dictionary[code + " ru-RU"] = "Отправить";
+
     code = "";
     this.dictionary[code + " en-EN"] = "";
     this.dictionary[code + " it-IT"] = "";
