@@ -8,8 +8,6 @@ import {LanguageService} from "./services/language.service";
 })
 export class AppComponent implements OnInit {
 
-  languages = ["RU", "EN", "IT"];
-
   cube = false;
 
   constructor(public lang: LanguageService) {
