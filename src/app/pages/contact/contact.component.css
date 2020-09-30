@@ -28,7 +28,6 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
 
 form{
     position: relative;
-    top: 100px;
     background: rgba(0,0,0,.1);
 
     text-align: center;
