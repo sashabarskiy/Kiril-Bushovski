@@ -29,8 +29,6 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
 form{
     position: relative;
     top: 100px;
-    left: 50%;
-    transform: translate(-50%, 0);
     background: rgba(0,0,0,.1);
 
     text-align: center;
@@ -52,7 +50,7 @@ input[type=text]{
     margin: 10px 0;
     background: transparent;
     color: #222;
-    width: 83%;
+    width: calc(100% - 22px);
 }
 
 input[type=text]:focus{
@@ -65,7 +63,7 @@ textarea  {
     text-align: left;
     border: 2px solid #222;
     padding: 10px;
-    width: 83%;
+    width: calc(100% - 22px);
     height: 150px;
     margin: 10px 0;
     background: transparent;
